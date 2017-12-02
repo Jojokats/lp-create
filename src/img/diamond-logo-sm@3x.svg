@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100">
+  <defs>
+    <linearGradient id="diamond-logo-sm@3x-a" x1="50%" x2="50%" y1="-28.528%" y2="97.595%">
+      <stop offset="0%" stop-color="#F9F9F9"/>
+      <stop offset="100%" stop-color="#F0F0F0"/>
+    </linearGradient>
+    <filter id="diamond-logo-sm@3x-b" width="218.6%" height="218.7%" x="-59.3%" y="-59.3%" filterUnits="objectBoundingBox">
+      <feGaussianBlur in="SourceGraphic" stdDeviation=".2"/>
+    </filter>
+    <filter id="diamond-logo-sm@3x-c" width="224.6%" height="224.7%" x="-62.3%" y="-62.3%" filterUnits="objectBoundingBox">
+      <feGaussianBlur in="SourceGraphic" stdDeviation=".21"/>
+    </filter>
+    <filter id="diamond-logo-sm@3x-d" width="159.3%" height="159.3%" x="-29.6%" y="-29.7%" filterUnits="objectBoundingBox">
+      <feGaussianBlur in="SourceGraphic" stdDeviation=".1"/>
+    </filter>
+    <filter id="diamond-logo-sm@3x-e" width="159.3%" height="159.3%" x="-29.6%" y="-29.7%" filterUnits="objectBoundingBox">
+      <feGaussianBlur in="SourceGraphic" stdDeviation=".1"/>
+    </filter>
+    <filter id="diamond-logo-sm@3x-f" width="218.6%" height="218.7%" x="-59.3%" y="-59.3%" filterUnits="objectBoundingBox">
+      <feGaussianBlur in="SourceGraphic" stdDeviation=".2"/>
+    </filter>
+    <filter id="diamond-logo-sm@3x-g" width="165.9%" height="165.9%" x="-32.9%" y="-33%" filterUnits="objectBoundingBox">
+      <feGaussianBlur in="SourceGraphic" stdDeviation=".1"/>
+    </filter>
+    <filter id="diamond-logo-sm@3x-h" width="165.9%" height="165.9%" x="-32.9%" y="-33%" filterUnits="objectBoundingBox">
+      <feGaussianBlur in="SourceGraphic" stdDeviation=".1"/>
+    </filter>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <g transform="translate(1)">
+      <g stroke="#FFF" stroke-width="1.5" transform="rotate(-45 59.482 24.542)">
+        <rect width="33.679" height="34.035" x=".75" y=".75"/>
+        <rect width="33.679" height="34.035" x="34.422" y=".75"/>
+        <g transform="translate(0 34.012)">
+          <rect width="33.679" height="34.035" x=".75" y=".75"/>
+          <rect width="33.679" height="34.035" x="34.422" y=".75"/>
+        </g>
+      </g>
+      <path fill="url(#diamond-logo-sm@3x-a)" d="M48.874341,82.5830672 C48.8980406,82.685321 48.9118923,82.7400723 48.9118923,82.7400723 C48.9118923,82.7400723 48.938858,82.7202569 48.9893949,82.6820123 C49.040751,82.725732 49.0682325,82.7484401 49.0682325,82.7484401 C49.0682325,82.7484401 49.0566709,82.7136216 49.0345786,82.6476715 C49.7757563,82.0820823 53.6730001,79.0020237 55.1500675,75.684476 C56.7855623,72.0110947 56.7343939,68.4201513 55.0357797,67.6638795 C53.3371656,66.9076078 50.6343362,69.2723924 48.9988415,72.9457738 C47.8069436,75.6228202 48.306103,79.5997632 48.6645616,81.5601635 C48.0132294,79.6691987 46.6841912,75.9189754 45.5061669,73.2730894 C43.8706721,69.599708 45.1664803,66.9275659 43.4678662,67.6838376 C41.769252,68.4401094 41.7180836,72.0310528 43.3535784,75.7044342 C44.775652,78.8984639 48.0452385,81.8635968 48.874341,82.5830672 Z"/>
+      <g transform="rotate(-18 69.636 -115.868)">
+        <g stroke="#FFF" stroke-width=".5" transform="rotate(92 6.59 7.66)">
+          <path stroke-linecap="round" d="M5.97143875,6.77581099 C5.97143875,6.77581099 14.0945007,13.5636887 23.5216966,9.88024308"/>
+          <path d="M1.11331909,5.20827263 C1.21452991,5.25883838 2.54601456,6.42185072 6.07264957,6.82637675"/>
+          <path stroke-linecap="round" d="M1.35904381,4.44671714 C1.46025463,4.49728289 2.70028744,5.68456937 6.54751946,5.68456937" transform="rotate(-153 3.953 5.066)"/>
+          <path stroke-linecap="round" d="M1.62297267,3.20199367 C1.74045254,3.25255942 3.32056329,5.78456165 7.37948638,4.82009779" transform="rotate(-135 4.501 4.12)"/>
+          <path d="M0.273549413,6.87379007 C0.391029285,6.92435582 1.97114004,9.45635805 6.03006313,8.49189418" transform="rotate(-34 3.152 7.792)"/>
+          <path d="M0.500982271,5.76026824 C0.610583226,5.810834 2.08472212,8.34283622 5.87142909,7.37837236" transform="rotate(-13 3.186 6.679)"/>
+          <path stroke-linecap="round" d="M1.42999419,1.92238769 C1.56331261,1.97295345 3.0044651,6.21303417 7.88215842,4.55278062" transform="rotate(-135 4.656 3.43)"/>
+          <path d="M-0.10902192,7.24519853 C0.0242964986,7.29576429 1.465449,11.535845 6.34314232,9.87559146" transform="rotate(-54 3.117 8.753)"/>
+        </g>
+        <g fill="#FFF" transform="translate(3.537 .508)">
+          <ellipse cx="5.824" cy="1.349" rx="1" ry="1"/>
+          <ellipse cx="5.197" cy="1.466" filter="url(#diamond-logo-sm@3x-b)" rx="1" ry="1"/>
+          <ellipse cx="7.616" cy="2.468" rx="1" ry="1"/>
+          <ellipse cx="7.506" cy="2.526" filter="url(#diamond-logo-sm@3x-c)" rx="1" ry="1"/>
+          <ellipse cx="9.16" cy="3.59" rx="1" ry="1"/>
+          <ellipse cx="9.21" cy="3.641" filter="url(#diamond-logo-sm@3x-d)" rx="1" ry="1"/>
+          <ellipse cx="10.475" cy="4.096" rx="1" ry="1"/>
+          <ellipse cx="10.526" cy="4.045" filter="url(#diamond-logo-sm@3x-e)" rx="1" ry="1"/>
+          <ellipse cx="4.397" cy=".774" rx="1" ry="1"/>
+          <ellipse cx="4.352" cy=".506" filter="url(#diamond-logo-sm@3x-f)" rx="1" ry="1"/>
+          <ellipse cx="2.378" cy=".657" rx="1" ry="1"/>
+          <ellipse cx="2.455" cy=".455" filter="url(#diamond-logo-sm@3x-g)" rx="1" ry="1"/>
+          <ellipse cx=".455" cy=".556" rx="1" ry="1"/>
+          <ellipse cx=".455" cy=".455" filter="url(#diamond-logo-sm@3x-h)" rx="1" ry="1"/>
+        </g>
+      </g>
+      <g fill="#FFF" transform="translate(22.615 42.134)">
+        <path d="M0,13.1539808 C0.313601568,13.2108369 1.24434739,13.3773427 1.50970256,13.3773427 C1.91979692,13.3773427 2.20123001,13.2717545 2.35401026,13.060575 C2.50679051,12.8493955 2.58317949,12.4757758 2.58317949,11.9397047 L2.58317949,3.50881119 L3.83757949,3.50881119 L3.83757949,11.9518881 C3.83757949,12.820973 3.67676058,13.454502 3.35511795,13.8524942 C3.03347531,14.2504863 2.49473198,14.4494794 1.73887179,14.4494794 C1.36898277,14.4494794 0.361847963,14.2789125 0,14.2139342 L0,13.1539808 Z"/>
+        <text font-family="Muli-SemiBold, Muli" font-size="12" font-weight="500">
+          <tspan x="45.112" y="12">K</tspan>
+        </text>
+      </g>
+    </g>
+    <rect width="67.794" height="68.499" x="16.399" y="15.601" stroke="#FFF" stroke-width="2" transform="rotate(-45 50.296 49.85)"/>
+  </g>
+</svg>
