@@ -1,0 +1,175 @@
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+body {
+  font-family: 'Lato', sans-serif; }
+  body .learn {
+    color: #fff;
+    margin-top: 40px;
+    background-color: #F59E5B;
+    border: 2px solid #F59E5B;
+    -webkit-box-shadow: 2px 5px 30px #656565;
+    -moz-box-shadow: 2px 5px 30px #656565;
+    box-shadow: 2px 5px 30px #656565;
+    -o-transition: background-color .5s ease-out, background-color 0.5s ease-in;
+    -ms-transition: background-color .5s ease-out, background-color 0.5s ease-in;
+    -moz-transition: background-color .5s ease-out, background-color 0.5s ease-in;
+    -webkit-transition: background-color .5s ease-out, background-color 0.5s ease-in;
+    transition: background-color .5s ease-out, background-color 0.5s ease-in; }
+    body .learn:hover {
+      background-color: transparent;
+      border: 2px solid #EB9757; }
+
+#hero {
+  position: relative;
+  background: url("../img/archi-wht@2x.jpg") no-repeat center center fixed;
+  max-width: 100%;
+  min-height: 550px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover; }
+  #hero .primary-overlay {
+    background: rgba(62, 168, 206, 0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+    #hero .primary-overlay .logo {
+      margin-top: 40px; }
+    #hero .primary-overlay h1 {
+      color: #fff;
+      margin-top: 90px;
+      font-weight: 700; }
+    #hero .primary-overlay .learn {
+      color: #fff;
+      margin-top: 40px;
+      background-color: #F59E5B;
+      border: 2px solid #F59E5B;
+      -webkit-box-shadow: 2px 5px 30px #656565;
+      -moz-box-shadow: 2px 5px 30px #656565;
+      box-shadow: 2px 5px 30px #656565;
+      -o-transition: background-color .5s ease-out, background-color 0.5s ease-in;
+      -ms-transition: background-color .5s ease-out, background-color 0.5s ease-in;
+      -moz-transition: background-color .5s ease-out, background-color 0.5s ease-in;
+      -webkit-transition: background-color .5s ease-out, background-color 0.5s ease-in;
+      transition: background-color .5s ease-out, background-color 0.5s ease-in; }
+      #hero .primary-overlay .learn:hover {
+        background-color: transparent;
+        border: 2px solid #EB9757; }
+
+#info p {
+  margin: 100px 0;
+  font-size: 1.3rem;
+  font-weight: 300; }
+
+#create {
+  margin: 0px 0 100px; }
+  #create h3 {
+    margin: 50px 0 20px;
+    font-weight: 700; }
+
+#optimize {
+  position: relative;
+  background: url("../img/curve@2x.jpg") no-repeat center center fixed;
+  max-width: 100%;
+  min-height: 2000px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover; }
+  #optimize .primary-overlay {
+    background: rgba(62, 168, 206, 0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+  #optimize h2 {
+    color: #fff;
+    margin-top: 100px;
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 2.3rem; }
+  #optimize p {
+    color: #fff;
+    font-size: 1.3rem; }
+  #optimize .solution {
+    background-color: rgba(255, 255, 255, 0.6);
+    padding: 30px; }
+    #optimize .solution h3 {
+      padding: 40px 0 20px; }
+    #optimize .solution .build {
+      padding-bottom: 25px;
+      display: block;
+      margin: 0 auto; }
+    #optimize .solution .learn {
+      color: #fff;
+      margin-top: 40px;
+      margin-bottom: 40px;
+      background-color: #F59E5B;
+      border: 2px solid #F59E5B;
+      -webkit-box-shadow: 2px 5px 30px #656565;
+      -moz-box-shadow: 2px 5px 30px #656565;
+      box-shadow: 2px 5px 30px #656565;
+      -o-transition: background-color .5s ease-out, background-color 0.5s ease-in;
+      -ms-transition: background-color .5s ease-out, background-color 0.5s ease-in;
+      -moz-transition: background-color .5s ease-out, background-color 0.5s ease-in;
+      -webkit-transition: background-color .5s ease-out, background-color 0.5s ease-in;
+      transition: background-color .5s ease-out, background-color 0.5s ease-in; }
+      #optimize .solution .learn:hover {
+        background-color: transparent;
+        border: 2px solid #EB9757;
+        color: #212529; }
+  #optimize .box-l {
+    margin-top: 110px; }
+  #optimize .box-m {
+    margin-top: 55px; }
+  #optimize .box-r {
+    margin-top: 55px; }
+
+#footer {
+  background-color: #303037;
+  color: #fff; }
+  #footer p {
+    font-size: 1rem;
+    padding-top: 50px; }
+    #footer p .joanna {
+      color: #fff; }
+    #footer p i.fa-heart {
+      color: #f35c5a;
+      font-size: 0.8rem;
+      padding: 0 2px; }
+  #footer .icons {
+    padding: 20px 0; }
+    #footer .icons .fa {
+      color: #fff;
+      padding-right: 10px;
+      -o-transition: color .5s ease-out, color 0.5s ease-in;
+      -ms-transition: color .5s ease-out, color 0.5s ease-in;
+      -moz-transition: color .5s ease-out, color 0.5s ease-in;
+      -webkit-transition: color .5s ease-out, color 0.5s ease-in;
+      transition: color .5s ease-out, color 0.5s ease-in; }
+      #footer .icons .fa:hover {
+        color: #F59E5B; }
+
+/*
+*******************************
+M E D I A  Q U E R I E S
+*******************************
+*/
+@media (min-width: 768px) {
+  #hero h1 {
+    font-size: 3rem !important; }
+  #optimize {
+    position: relative;
+    background: url("../img/curve@2x.jpg") no-repeat center center fixed;
+    max-width: 100%;
+    min-height: 900px; }
+    #optimize p {
+      font-size: 1.3rem;
+      margin-bottom: 80px; }
+    #optimize .box-r {
+      margin-top: 0px; } }
