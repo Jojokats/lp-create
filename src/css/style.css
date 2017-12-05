@@ -4,25 +4,10 @@
 
 body {
   font-family: 'Lato', sans-serif; }
-  body .learn {
-    color: #fff;
-    margin-top: 40px;
-    background-color: #F59E5B;
-    border: 2px solid #F59E5B;
-    -webkit-box-shadow: 2px 5px 30px #656565;
-    -moz-box-shadow: 2px 5px 30px #656565;
-    box-shadow: 2px 5px 30px #656565;
-    -o-transition: background-color .5s ease-out, background-color 0.5s ease-in;
-    -ms-transition: background-color .5s ease-out, background-color 0.5s ease-in;
-    -moz-transition: background-color .5s ease-out, background-color 0.5s ease-in;
-    -webkit-transition: background-color .5s ease-out, background-color 0.5s ease-in;
-    transition: background-color .5s ease-out, background-color 0.5s ease-in; }
-    body .learn:hover {
-      background-color: transparent;
-      border: 2px solid #EB9757; }
 
 #hero {
   position: relative;
+  background: url("../img/archi-wht@2x.jpg") no-repeat center center fixed;
   background: url("../img/archi-wht@2x.jpg") no-repeat center center fixed;
   max-width: 100%;
   min-height: 550px;
@@ -42,15 +27,16 @@ body {
     #hero .primary-overlay h1 {
       color: #fff;
       margin-top: 90px;
-      font-weight: 700; }
+      font-weight: 700;
+      text-shadow: 2px 1px 5px #828282; }
     #hero .primary-overlay .learn {
       color: #fff;
       margin-top: 40px;
       background-color: #F59E5B;
       border: 2px solid #F59E5B;
-      -webkit-box-shadow: 2px 5px 30px #656565;
-      -moz-box-shadow: 2px 5px 30px #656565;
-      box-shadow: 2px 5px 30px #656565;
+      -webkit-box-shadow: 0px 3px 20px #868686;
+      -moz-box-shadow: 0px 3px 20px #868686;
+      box-shadow: 0px 3px 20px #868686;
       -o-transition: background-color .5s ease-out, background-color 0.5s ease-in;
       -ms-transition: background-color .5s ease-out, background-color 0.5s ease-in;
       -moz-transition: background-color .5s ease-out, background-color 0.5s ease-in;
@@ -76,6 +62,7 @@ body {
   background: url("../img/curve@2x.jpg") no-repeat center center fixed;
   max-width: 100%;
   min-height: 2000px;
+  overflow: hidden;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -100,7 +87,10 @@ body {
     background-color: rgba(255, 255, 255, 0.6);
     padding: 30px; }
     #optimize .solution h3 {
-      padding: 40px 0 20px; }
+      padding: 40px 0 20px;
+      font-weight: 700; }
+    #optimize .solution h4 {
+      color: #F59E5B; }
     #optimize .solution .build {
       padding-bottom: 25px;
       display: block;
@@ -111,9 +101,9 @@ body {
       margin-bottom: 40px;
       background-color: #F59E5B;
       border: 2px solid #F59E5B;
-      -webkit-box-shadow: 2px 5px 30px #656565;
-      -moz-box-shadow: 2px 5px 30px #656565;
-      box-shadow: 2px 5px 30px #656565;
+      -webkit-box-shadow: 0px 3px 20px #868686;
+      -moz-box-shadow: 0px 3px 20px #868686;
+      box-shadow: 0px 3px 20px #868686;
       -o-transition: background-color .5s ease-out, background-color 0.5s ease-in;
       -ms-transition: background-color .5s ease-out, background-color 0.5s ease-in;
       -moz-transition: background-color .5s ease-out, background-color 0.5s ease-in;
@@ -124,11 +114,14 @@ body {
         border: 2px solid #EB9757;
         color: #212529; }
   #optimize .box-l {
-    margin-top: 110px; }
+    margin-top: 80px;
+    border-radius: 5px; }
   #optimize .box-m {
-    margin-top: 55px; }
+    margin-top: 55px;
+    border-radius: 5px; }
   #optimize .box-r {
-    margin-top: 55px; }
+    margin-top: 55px;
+    border-radius: 5px; }
 
 #footer {
   background-color: #303037;
@@ -171,5 +164,21 @@ M E D I A  Q U E R I E S
     #optimize p {
       font-size: 1.3rem;
       margin-bottom: 80px; }
+    #optimize .box-l {
+      margin-top: 180px; }
+    #optimize .box-m {
+      margin-top: 88px; }
     #optimize .box-r {
       margin-top: 0px; } }
+
+@media (min-width: 992px) {
+  #optimize .box-l {
+    margin-top: 152px; }
+  #optimize .box-m {
+    margin-top: 58px; } }
+
+@media (min-width: 1200px) {
+  #optimize .box-l {
+    margin-top: 152px; }
+  #optimize .box-m {
+    margin-top: 88px; } }

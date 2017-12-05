@@ -13,32 +13,11 @@ $body-color: rgb(33, 37, 41);
 
 body {
   font-family: 'Lato', sans-serif;
-
-  .learn {
-    color: $white;
-    margin-top: 40px;
-    background-color: $btn-bg-color;
-    border: 2px solid $btn-bg-color;
-    -webkit-box-shadow: 2px 5px 30px #656565;
-     -moz-box-shadow: 2px 5px 30px #656565 ;
-     box-shadow: 2px 5px 30px #656565;
-
-    -o-transition:background-color .5s ease-out, background-color 0.5s ease-in;
-     -ms-transition:background-color .5s ease-out, background-color 0.5s ease-in;
-     -moz-transition:background-color .5s ease-out, background-color 0.5s ease-in;
-     -webkit-transition:background-color .5s ease-out, background-color 0.5s ease-in;
-     transition:background-color .5s ease-out, background-color 0.5s ease-in;
-
-    &:hover {
-      background-color: transparent;
-      border: 2px solid $btn-bg-color-dk;
-
-    }
-  }// learn
 }
 
 #hero {
   position: relative;
+  background: url('../img/archi-wht@2x.jpg') no-repeat center center fixed;
   background: url('../img/archi-wht@2x.jpg') no-repeat center center fixed;
   max-width: 100%;
   min-height: 550px;
@@ -63,7 +42,7 @@ body {
      color: $white;
      margin-top: 90px;
      font-weight: 700;
-    //  font-size: 2.5rem;
+     text-shadow: 2px 1px 5px #828282;
    }
 
    .learn {
@@ -71,9 +50,9 @@ body {
      margin-top: 40px;
      background-color: $btn-bg-color;
      border: 2px solid $btn-bg-color;
-     -webkit-box-shadow: 2px 5px 30px #656565;
-      -moz-box-shadow: 2px 5px 30px #656565 ;
-      box-shadow: 2px 5px 30px #656565;
+     -webkit-box-shadow: 0px 3px 20px #868686;
+      -moz-box-shadow: 0px 3px 20px #868686;
+      box-shadow: 0px 3px 20px #868686;
 
      -o-transition:background-color .5s ease-out, background-color 0.5s ease-in;
       -ms-transition:background-color .5s ease-out, background-color 0.5s ease-in;
@@ -112,6 +91,7 @@ body {
   background: url('../img/curve@2x.jpg') no-repeat center center fixed;
   max-width: 100%;
   min-height: 2000px;
+  overflow: hidden;
 
   // padding-bottom: 100px;
   -webkit-background-size: cover;
@@ -147,6 +127,10 @@ body {
 
       h3 {
         padding: 40px 0 20px;
+        font-weight: 700;
+      }
+      h4 {
+        color: $btn-bg-color;
       }
       .build {
         padding-bottom: 25px;
@@ -160,9 +144,9 @@ body {
         margin-bottom: 40px;
         background-color: $btn-bg-color;
         border: 2px solid $btn-bg-color;
-        -webkit-box-shadow: 2px 5px 30px #656565;
-         -moz-box-shadow: 2px 5px 30px #656565 ;
-         box-shadow: 2px 5px 30px #656565;
+        -webkit-box-shadow: 0px 3px 20px #868686;
+         -moz-box-shadow: 0px 3px 20px #868686;
+         box-shadow: 0px 3px 20px #868686;
 
         -o-transition:background-color .5s ease-out, background-color 0.5s ease-in;
          -ms-transition:background-color .5s ease-out, background-color 0.5s ease-in;
@@ -180,16 +164,18 @@ body {
     }// solution
 
     .box-l {
-      margin-top: 110px;
+      margin-top: 80px;
+      border-radius: 5px;
     }
 
     .box-m {
-          margin-top: 55px;
+      margin-top: 55px;
+      border-radius: 5px;
     }
 
     .box-r {
       margin-top: 55px;
-
+      border-radius: 5px;
     }
 
 }// optimize
@@ -236,11 +222,6 @@ body {
 
 
 
-
-
-
-
-
 /*
 *******************************
 M E D I A  Q U E R I E S
@@ -264,12 +245,44 @@ M E D I A  Q U E R I E S
         font-size: 1.3rem;
         margin-bottom: 80px;
       }
+      .box-l {
+        margin-top: 180px;
+      }
+      .box-m {
+        margin-top: 88px;
+      }
 
       .box-r {
         margin-top: 0px;
 
       }
     }
-
-
   }
+
+  @media (min-width: 992px) {
+
+    #optimize {
+
+      .box-l {
+        margin-top: 152px;
+      }
+      .box-m {
+        margin-top: 58px;
+      }
+    }
+  }
+
+
+@media (min-width: 1200px) {
+
+  #optimize {
+    .box-l {
+      margin-top: 152px;
+    }
+
+    .box-m {
+          margin-top: 88px;
+    }
+  }
+
+ }
